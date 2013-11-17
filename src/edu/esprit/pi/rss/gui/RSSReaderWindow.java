@@ -22,7 +22,6 @@ import javax.swing.UnsupportedLookAndFeelException;
 public class RSSReaderWindow extends javax.swing.JFrame {
 
     private RSSFeedReader reader;
-    private RSSFeedReader reader2;
     private List<Event> events;
     private SyndFeed feed;
     private int index = 1;
@@ -65,7 +64,7 @@ public class RSSReaderWindow extends javax.swing.JFrame {
 
         this.reader = new RSSFeedReader();
         this.events = this.reader.getItems("http://www.lamoooche.com/getRSS.php?idnews=6746");
-
+        System.out.println("dddddd");
         this.feed = this.reader.getFeed();
         initComponents();
         ImageIcon icon = new ImageIcon(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/ressources/rss.png")));
