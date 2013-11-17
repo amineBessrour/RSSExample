@@ -22,6 +22,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 public class RSSReaderWindow extends javax.swing.JFrame {
 
     private RSSFeedReader reader;
+    private RSSFeedReader reader2;
     private List<Event> events;
     private SyndFeed feed;
     private int index = 1;
