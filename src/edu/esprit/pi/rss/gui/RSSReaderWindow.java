@@ -530,6 +530,7 @@ public class RSSReaderWindow extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         try {
+            System.out.println("ouffff");
             index++;
             events.get(index);
             fluxTitreLabel.setText(events.get(index).getTitle());

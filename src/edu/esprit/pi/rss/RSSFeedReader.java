@@ -20,7 +20,7 @@ import java.util.List;
  */
 public class RSSFeedReader {
 
-    private String baseUrl = "http://www.lamoooche.com/getRSS.php?idnews=6746";
+    private String baseUrl = "http://www.lamoooche.com/getRSS.php?idnews=6747";
     private SyndFeed feed;
 
     // <editor-fold defaultstate="collapsed" desc=" Getters and Setters ">
